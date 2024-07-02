@@ -7,6 +7,7 @@ export function Servicos(){
             <ServicosLista>
                 <li><span>01</span>Pintura</li>
                 <li><span>02</span>Martelinho de ouro/remoção de mossas sem Pintar</li>
+                <li><span>03</span>Polimento</li>
             </ServicosLista>
         </ContainerServico>
     )

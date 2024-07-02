@@ -22,7 +22,7 @@ export const SubFraseMain = styled.p`
     }
     @media (min-width: 992px) {
         margin-top:2vh;
-        line-height: 4vw;
+        line-height: 3vw;
         width: 70%;
         font-size: 1.8vw;
     }
@@ -49,9 +49,9 @@ export const HeroCarrousel = styled.div`
         outline: none;
         padding: 0 4%;
         h3{
-            color: aliceblue;
-            font-size: calc(1rem + 2vw);
-            font-family: "Poppins", sans-serif;
+            color: #EAEAFD;
+            font-size: calc(1.2rem + 2vw);
+            font-family: "Bebas Neue", sans-serif;
             text-align: start;
             text-transform:uppercase;
             margin-bottom: 2vh;
@@ -89,11 +89,11 @@ export const HeroCarrousel = styled.div`
         }
         .container{
             img{
-                width: 80%;
+                width: 90%;
             }
             h3{
-                font-size: 2vw;
-                width: 80%;
+                font-size: 1.5vw;
+                width: 90%;
             }
         }
     }

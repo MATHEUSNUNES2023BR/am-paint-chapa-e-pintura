@@ -1,6 +1,7 @@
 import { Whatsapp, ContainerMain, HeroCarrousel, SubFraseMain } from "./style";
 import pintura from "../../assets/images/pintura.jpeg"
 import amassado from "../../assets/images/antes_e_depois.png"
+import polimeto from "../../assets/images/polimento.jpeg"
 import whatsapp from "../../assets/images/whatsapp.png"
 
 import Slider from "react-slick"
@@ -26,8 +27,13 @@ export function Main(){
                     </div>
 
                     <div className="container">
-                        <h3>Reparo de Amassados</h3>
+                        <h3>Remoção de mossas sem pintar</h3>
                         <img src={amassado} alt="" />
+                    </div>
+
+                    <div className="container">
+                        <h3>Polimentos</h3>
+                        <img src={polimeto} alt="" />
                     </div>
                 </Slider>
             </HeroCarrousel>
