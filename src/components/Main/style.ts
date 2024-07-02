@@ -70,6 +70,7 @@ export const HeroCarrousel = styled.div`
         width: 95vw;
         .container{
             h3{
+                font-size: calc(1.4rem + 2vw);
                 width:90%;
                 margin: 0 auto;
                 margin-bottom: 2vh;
@@ -92,7 +93,7 @@ export const HeroCarrousel = styled.div`
                 width: 90%;
             }
             h3{
-                font-size: 1.5vw;
+                font-size: 1.8vw;
                 width: 90%;
             }
         }
