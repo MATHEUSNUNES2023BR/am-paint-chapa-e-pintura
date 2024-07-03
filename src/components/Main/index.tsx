@@ -1,4 +1,4 @@
-import { Whatsapp, ContainerMain, HeroCarrousel, SubFraseMain } from "./style";
+import { Whatsapp, ContainerMain, HeroCarrousel, SubFraseMain, ContainerFraseHero, Frase } from "./style";
 import pintura from "../../assets/images/pintura.jpeg"
 import amassado from "../../assets/images/antes_e_depois.png"
 import polimeto from "../../assets/images/polimento.jpeg"
@@ -20,22 +20,28 @@ export function Main(){
     return(
         <ContainerMain> 
             <HeroCarrousel>
-                <Slider {...settings} className="slide">
-                    <div className="container">
-                        <h3>Pinturas</h3>
-                        <img src={pintura} alt="" />
-                    </div>
+                <ContainerFraseHero>
+                    <Frase>
+                        <h1>AM PAINT, PINTURAS E CHAPAS</h1>
+                        <p>Qualidade que brilha, confiança que conquista.</p>
+                    </Frase>
+                    <Slider {...settings} className="slide">
+                        <div className="container">
+                            <h3>Pinturas</h3>
+                            <img src={pintura} alt="" />
+                        </div>
 
-                    <div className="container">
-                        <h3>Remoção de mossas sem pintar</h3>
-                        <img src={amassado} alt="" />
-                    </div>
+                        <div className="container">
+                            <h3>Remoção de mossas sem pintar</h3>
+                            <img src={amassado} alt="" />
+                        </div>
 
-                    <div className="container">
-                        <h3>Polimentos</h3>
-                        <img src={polimeto} alt="" />
-                    </div>
-                </Slider>
+                        <div className="container">
+                            <h3>Polimentos</h3>
+                            <img src={polimeto} alt="" />
+                        </div>
+                    </Slider>
+                </ContainerFraseHero>
             </HeroCarrousel>
 
             <SubFraseMain>

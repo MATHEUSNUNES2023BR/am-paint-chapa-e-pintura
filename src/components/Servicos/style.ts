@@ -16,7 +16,7 @@ export const ContainerServico = styled.div`
         @media (min-width: 576px) {
             font-size: 6vw;
         }
-        @media (min-width: 992px) {
+        @media (min-width: 1116px) {
             font-size: 2.5vw;
         }
     }
@@ -45,7 +45,7 @@ export const ServicosLista = styled.ul`
             font-size: 4.5vw;
         }
     }
-    @media (min-width: 992px) {
+    @media (min-width: 1116px) {
         margin-top: 4vh;
         li{
             padding: 0.8vw;

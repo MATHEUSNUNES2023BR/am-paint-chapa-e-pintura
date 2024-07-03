@@ -18,7 +18,7 @@ export const ContainerContato = styled.div`
             font-size: 6vw;
         }
     }
-    @media (min-width: 992px) {
+    @media (min-width: 1116px) {
         h2{
             font-size: 2.5vw;
         }
@@ -27,7 +27,7 @@ export const ContainerContato = styled.div`
 export const ContainerEndereco = styled.div`
     margin-top: 4vw;
     display: flex;
-    align-self: center;
+    justify-content: space-around;
 `
 export const Endereco = styled.ul`
     display: grid;
@@ -67,10 +67,10 @@ export const Endereco = styled.ul`
             font-size: 2.2rem;
         }
     }
-    @media (min-width: 992px) {
+    @media (min-width: 1116px) {
         margin: 0;
         margin-bottom: 2vw;
-        grid-template-columns: 5% 50%;
+        grid-template-columns: 0.1fr 1fr;
         img{
             margin: 0;
             width: 60px;
@@ -88,7 +88,7 @@ export const Endereco = styled.ul`
 `
 export const Mapa = styled.div`
     margin-top: 1vh;
-    margin-left: 2vw;
+    margin-left: 8vw;
     iframe{
         display: block;
         margin: 0 auto;
@@ -98,15 +98,15 @@ export const Mapa = styled.div`
     }
     @media (min-width: 576px) {
         iframe{
-            width: 400px;
+            width: 350px;
             height: 300px;
         }
     }
-    @media (min-width: 992px) {
+    @media (min-width: 1116px) {
         iframe{
             margin-top: 0;
-            width: 32vw;
-            height: 38vh;
+            width: 25vw;
+            height: 15vw;
         }
     }
 `

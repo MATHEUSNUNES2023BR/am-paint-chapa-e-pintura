@@ -7,7 +7,7 @@ const EstiloGlobal = createGlobalStyle`
         box-sizing: border-box;
     }
     body{
-        background-image: linear-gradient(120deg, #18181B, #19191C);
+        background-color: #18181B;
         max-width: 1366px;
         width: 100%;
         margin: 0 auto;

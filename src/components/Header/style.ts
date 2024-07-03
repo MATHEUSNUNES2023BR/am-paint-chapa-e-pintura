@@ -5,7 +5,7 @@ export const HeaderContainer = styled.header`
     width: 100%;
     height: 14vh;
     border-bottom: 1px solid white;
-    @media (min-width: 992px) {
+    @media (min-width: 1116px) {
         height: 12vh;
     }
     
@@ -35,7 +35,7 @@ export const NavLink = styled.ul`
             }
         }
     }
-    @media (min-width: 992px) {
+    @media (min-width: 1116px) {
         width: 70%;
     }
    
