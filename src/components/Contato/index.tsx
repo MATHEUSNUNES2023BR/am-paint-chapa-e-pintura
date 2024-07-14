@@ -15,7 +15,7 @@ export function Contato(){
                     <Endereco>
                         <img src={localizacao} alt="" />
                         <h4>Endereço</h4>
-                        <p>R. Lameiro 164, Alcabideche, Cascais</p>
+                        <p>R. Lameiro 164 Armazém 1, Alcabideche, Cascais</p>
                     </Endereco>
                 </div>
                 <Mapa>
