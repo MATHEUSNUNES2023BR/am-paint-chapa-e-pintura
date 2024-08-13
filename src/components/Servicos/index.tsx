@@ -10,7 +10,7 @@ export function Servicos(){
                 <li><span>03</span>Polimento</li>
                 <li><span>04</span>Bate chapa e todo tipo de restauro</li>
                 <li><span>05</span>Lavagem completa</li>
-                <li><span>06</span>Mecanica rapida</li>
+                <li><span>06</span>Mecânica rápida</li>
             </ServicosLista>
         </ContainerServico>
     )
