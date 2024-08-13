@@ -22,13 +22,10 @@ export const Frase = styled.div`
     margin: 0 auto;
     width: 90vw;
     margin-bottom: 4vh;
-    h1{
-            font-size: calc(2vw + 1.2rem);
-            color: #fff;
-            font-family: "Roboto", sans-serif;
-            text-align: end;
-            padding-bottom: 2vh;
-        }
+    img{
+        width: 100%;
+        margin-bottom: 3vw;
+    }
     p{
         margin-top: 1vh;
         font-size: calc(2vw + 0.7rem);
@@ -38,12 +35,8 @@ export const Frase = styled.div`
     @media (min-width: 576px){
         order: 2;
         margin: 0;
-        margin-top: 6vh;
-        width: 85%;
-        h1{
-            font-size: calc(3.5vw + 1rem);
-            color: #fff;
-        }
+        margin-top: 4vh;
+        width: 90%;
         p{
             margin-top: 4vh;
             font-size: calc(1.8vw + 0.7rem);
@@ -56,12 +49,10 @@ export const Frase = styled.div`
     }
     @media (min-width: 1116px){
         order: 2;
-        margin-top: 10vh;
+        margin-top: 2vh;
         width: 100%;
-        h1{
-            font-size: calc(1.5vw + 1rem);
-            color: #fff;
-            text-align: center;
+        img{
+            width: 85%;
         }
         p{
             margin-top: 5vh;

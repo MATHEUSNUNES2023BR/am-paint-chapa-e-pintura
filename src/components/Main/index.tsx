@@ -3,6 +3,7 @@ import pintura from "../../assets/images/pintura.jpeg"
 import amassado from "../../assets/images/antes_e_depois.png"
 import polimeto from "../../assets/images/polimento.jpeg"
 import whatsapp from "../../assets/images/whatsapp.png"
+import logoteste from "../../assets/images/Auto_Paint-removebg-preview.png"
 
 import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
@@ -22,7 +23,7 @@ export function Main(){
             <HeroCarrousel>
                 <ContainerFraseHero>
                     <Frase>
-                        <h1>AM PAINT, PINTURAS E CHAPAS</h1>
+                        <img src={logoteste} />
                         <p>Qualidade que brilha, confiança que conquista.</p>
                     </Frase>
                     <Slider {...settings} className="slide">
